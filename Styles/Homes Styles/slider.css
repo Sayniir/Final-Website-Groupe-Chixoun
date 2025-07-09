@@ -1,0 +1,77 @@
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.slider img{
+    width: 100%;
+    display: none;
+    height: 600px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider button{
+    font-size: 1.5rem;
+    background-color: #e9c13c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 4px 10px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #005830d7;
+    padding: 10px 20px;
+}
+
+
+
+
+@keyframes fade{
+    from{opacity: .5}
+    to{opacity: 1;}
+}
+
+#pause:hover{
+    transform: scale(1.03);
+}
+
+.arrow-left:hover{
+    transform: translateX(-10px);
+}
+.arrow-right:hover{
+    transform: translateX(10px);
+}
+
+#pause:active{
+    transform: scale(0.95);
+}
+
+@media(max-width:600px){
+    .slider img{
+        height: 300px;
+    }
+}

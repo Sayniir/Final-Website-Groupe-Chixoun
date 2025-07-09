@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 50;
+
+}
+
+.logo {
+    width:75px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.nav-links a:hover{
+    border: 1px solid black;
+}
+
+body{
+    padding-top: 60px;
+}
