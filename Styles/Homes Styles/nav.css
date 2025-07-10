@@ -28,6 +28,7 @@ nav {
     transition: all 0.3s ease;
     border-radius: 10px;
     flex: 1;
+    white-space: nowrap;
 }
 
 .nav-links a:hover{
