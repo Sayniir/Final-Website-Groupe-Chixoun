@@ -1,0 +1,13 @@
+.oeoe {
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+}
+.location{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+

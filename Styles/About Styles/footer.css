@@ -1,0 +1,24 @@
+footer{
+    margin-top: 20px;
+    width: fit-content;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.links a{
+    color: rgb(112, 112, 112);
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}

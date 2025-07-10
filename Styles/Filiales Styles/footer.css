@@ -18,6 +18,11 @@ footer {
     margin: 0 auto;
 }
 
+.rights p{
+    color: white;
+}
+
+
 .profil, .quick, .contact {
     flex: 1 1 300px;
 }
