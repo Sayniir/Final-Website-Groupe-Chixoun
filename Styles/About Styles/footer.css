@@ -1,24 +1,22 @@
-footer{
-    margin-top: 20px;
-    width: fit-content;
-    padding-left: 60px;
-    padding-right: 60px;
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 120px;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.right {
+  margin-top: 10px;
 }
 
 .links a{
     color: rgb(112, 112, 112);
-}
-
-.right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
 }

@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+
+    
+  .container1 {
+    height: 200px;
+  }
+
+  .container1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .valeurs h1 {
+    font-size: 1.5rem;
+  }
+
+  .valeurs p {
+    font-size: 0.95rem;
+  }
+
+  .timeline-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.95rem;
+  }
+
+  .timeline-icon {
+    width: 30px;
+    height: 30px;
+    left: -25px;
+  }
+
+  .timeline-icon i {
+    font-size: 14px;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav{
+    z-index: 50;
+}

@@ -1,25 +1,24 @@
-.valeurs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px 30px;
-    width: 1000px;
-    line-height: 1.4;
-    color: black;
-    font-weight: 400;
-    margin-top: 40px;
+.valeurs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.6;
 }
 
-.valeurs h1{
-    margin: 0;
-    font-weight: 500;
+.valeurs h1 {
+  font-size: 2rem;
 }
+
+.valeurs p {
+  font-size: 1rem;
+}
+
 
 .valeurs strong{
     text-decoration: underline;
 
-}
-
-.valeurs p{
-    margin: 6px;
 }

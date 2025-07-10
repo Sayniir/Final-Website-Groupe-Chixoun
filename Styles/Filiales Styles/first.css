@@ -13,9 +13,11 @@
 }
 
 .container1 h1{
-    z-index: 10;
+    z-index: 5;
     position: absolute;
-
+    white-space: wrap;
+    text-align: center;
+    font-size: clamp(1.5rem, 5vh, 3rem);
     left: 50%;
     transform: translate(-50%, -50%);
     top: 35%;
@@ -23,7 +25,6 @@
     color: white;
     font-weight: 700;
     font-size: 3rem;
-    white-space: nowrap;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     display: block;
     padding: 5px 8px;

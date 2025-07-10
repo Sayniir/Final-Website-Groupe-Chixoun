@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .filiales {
+    padding: 30px 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .links a {
+    text-align: center;
+  }
+
+  .quick h3, .contact h3 {
+    font-size: 1rem;
+  }
+
+  .rights {
+    font-size: 0.75rem;
+  }
+}
+
+nav {
+  width: 100vw;
+  overflow-x: hidden;
+}

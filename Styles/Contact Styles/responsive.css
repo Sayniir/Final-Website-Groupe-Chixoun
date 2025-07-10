@@ -1,0 +1,73 @@
+/* Empêcher le scroll horizontal global */
+body {
+  overflow-x: hidden;
+}
+
+/* Container principal en colonne sur mobile */
+@media (max-width: 1024px) {
+  .big-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+    text-align: center;
+
+  }
+
+  .location{
+    margin: auto;
+  }
+
+  .oeoe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .link img {
+    width: 50px;
+  }
+
+  .reseaux h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+/* Ajustements supplémentaires pour petits écrans */
+@media (max-width: 768px) {
+  .big-container {
+    padding: 10px;
+  }
+
+  .form input,
+  .form textarea,
+  .container button {
+    font-size: 15px;
+  }
+
+  .container button {
+    padding: 10px 14px;
+  }
+
+  .link {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right {
+    margin-top: 20px;
+  }
+
+}
